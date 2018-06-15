@@ -1,0 +1,254 @@
+.home-block {
+  position: relative;
+  min-width: 1120px;
+}
+.home-block__bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  background-image: url("../images/render_day_bg.jpg");
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+.home-block__container {
+  position: relative;
+  width: 1120px;
+  height: 1110px;
+  margin: 0 auto;
+}
+.home-block__marker {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-size: auto 40px;
+  background-position: left center;
+}
+.home-block__marker:hover {
+  width: 420px;
+  background-size: auto 40px;
+  background-position: left center;
+  z-index: 10;
+}
+.home-block__marker.marker-11 {
+  background-image: url("../images/points/point-1.1.svg");
+  top: 475px;
+  left: 625px;
+}
+.home-block__marker.marker-11:hover {
+  background-image: url("../images/labels/point-1.1.svg");
+}
+.home-block__marker.marker-12 {
+  background-image: url("../images/points/point-1.2.svg");
+  top: 605px;
+  left: 35px;
+}
+.home-block__marker.marker-12:hover {
+  background-image: url("../images/labels/point-1.2.svg");
+}
+.home-block__marker.marker-13 {
+  background-image: url("../images/points/point-1.3.svg");
+  top: 550px;
+  left: 105px;
+}
+.home-block__marker.marker-13:hover {
+  background-image: url("../images/labels/point-1.3.svg");
+}
+.home-block__marker.marker-21 {
+  background-image: url("../images/points/point-2.1.svg");
+  top: 635px;
+  left: 350px;
+}
+.home-block__marker.marker-21:hover {
+  background-image: url("../images/labels/point-2.1.svg");
+}
+.home-block__marker.marker-22 {
+  background-image: url("../images/points/point-2.2.svg");
+  top: 810px;
+  left: -170px;
+}
+.home-block__marker.marker-22:hover {
+  background-image: url("../images/labels/point-2.2.svg");
+}
+.home-block__marker.marker-23 {
+  background-image: url("../images/points/point-2.3.svg");
+  top: 590px;
+  left: 230px;
+}
+.home-block__marker.marker-23:hover {
+  background-image: url("../images/labels/point-2.3.svg");
+}
+.home-block__marker.marker-31 {
+  background-image: url("../images/points/point-3.1.svg");
+  top: 350px;
+  left: 625px;
+}
+.home-block__marker.marker-31:hover {
+  background-image: url("../images/labels/point-3.1.svg");
+}
+.home-block__marker.marker-32 {
+  background-image: url("../images/points/point-3.2.svg");
+  top: 345px;
+  left: 135px;
+}
+.home-block__marker.marker-32:hover {
+  background-image: url("../images/labels/point-3.2.svg");
+}
+.home-block__marker.marker-33 {
+  background-image: url("../images/points/point-3.3.svg");
+  top: 290px;
+  left: -220px;
+}
+.home-block__marker.marker-33:hover {
+  background-image: url("../images/labels/point-3.3.svg");
+}
+.home-block__marker.marker-34 {
+  background-image: url("../images/points/point-3.4.svg");
+  top: 780px;
+  left: 220px;
+}
+.home-block__marker.marker-34:hover {
+  background-image: url("../images/labels/point-3.4.svg");
+}
+.home-block__marker.marker-41 {
+  background-image: url("../images/points/point-4.1.svg");
+  top: 445px;
+  left: 484px;
+}
+.home-block__marker.marker-41:hover {
+  background-image: url("../images/labels/point-4.1.svg");
+}
+.home-block__marker.marker-42 {
+  background-image: url("../images/points/point-4.2.svg");
+  top: 235px;
+  right: 140px;
+}
+.home-block__marker.marker-42:hover {
+  background-image: url("../images/labels/point-4.2.svg");
+  width: 305px;
+}
+.home-block__marker.marker-43 {
+  background-image: url("../images/points/point-4.3.svg");
+  top: 533px;
+  left: 624px;
+}
+.home-block__marker.marker-43:hover {
+  background-image: url("../images/labels/point-4.3.svg");
+}
+.home-block__marker.marker-51 {
+  background-image: url("../images/points/point-5.1.svg");
+  top: 660px;
+  right: 150px;
+}
+.home-block__marker.marker-51:hover {
+  background-image: url("../images/labels/point-5.1.svg");
+  width: 325px;
+}
+.home-block__marker.marker-52 {
+  background-image: url("../images/points/point-5.2.svg");
+  top: 805px;
+  left: 635px;
+}
+.home-block__marker.marker-52:hover {
+  background-image: url("../images/labels/point-5.2.svg");
+}
+.home-block__marker.marker-53 {
+  background-image: url("../images/points/point-5.3.svg");
+  top: 785px;
+  right: -105px;
+}
+.home-block__marker.marker-53:hover {
+  background-image: url("../images/labels/point-5.3.svg");
+  width: 280px;
+}
+.home-block__marker.marker-61 {
+  background-image: url("../images/points/point-6.1.svg");
+  top: 595px;
+  left: 620px;
+}
+.home-block__marker.marker-61:hover {
+  background-image: url("../images/labels/point-6.1.svg");
+}
+.home-block__marker.marker-62 {
+  background-image: url("../images/points/point-6.2.svg");
+  top: 500px;
+  left: 688px;
+}
+.home-block__marker.marker-62:hover {
+  background-image: url("../images/labels/point-6.2.svg");
+}
+.home-block__marker.marker-63 {
+  background-image: url("../images/points/point-6.3.svg");
+  top: 605px;
+  left: 785px;
+}
+.home-block__marker.marker-63:hover {
+  background-image: url("../images/labels/point-6.3.svg");
+}
+.home-block__marker.marker-71 {
+  background-image: url("../images/points/point-7.1.svg");
+  top: 595px;
+  left: 450px;
+}
+.home-block__marker.marker-71:hover {
+  background-image: url("../images/labels/point-7.1.svg");
+  width: 235px;
+}
+.home-block__marker.marker-72 {
+  background-image: url("../images/points/point-7.2.svg");
+  top: 800px;
+  left: 445px;
+}
+.home-block__marker.marker-72:hover {
+  background-image: url("../images/labels/point-7.2.svg");
+}
+.home-block__marker.marker-73 {
+  background-image: url("../images/points/point-7.3.svg");
+  top: 530px;
+  right: 120px;
+}
+.home-block__marker.marker-73:hover {
+  background-image: url("../images/labels/point-7.3.svg");
+  width: 335px;
+}
+.home-block__marker.marker-74 {
+  background-image: url("../images/points/point-7.4.svg");
+  top: 540px;
+  left: 350px;
+  background-size: auto 48px;
+  background-position-y: -3px;
+}
+.home-block__marker.marker-74:hover {
+  background-image: url("../images/labels/point-7.4.svg");
+  background-size: auto 40px;
+  background-position-y: center;
+}
+
+@media (max-width: 1700px) {
+  .home-block {
+    zoom: 0.8;
+  }
+}
+@media (max-width: 1300px) {
+  .home-block {
+    zoom: 0.7;
+  }
+}
+@media (max-width: 1100px) {
+  .home-block {
+    zoom: 0.6;
+  }
+}
+@media (max-width: 768px) {
+  .home-block {
+    zoom: 0.47;
+  }
+}
+@media (max-width: 767px) {
+  .home-block {
+    display: none;
+  }
+}
